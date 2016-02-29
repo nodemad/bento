@@ -2,9 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Bento</title>
+  <title>Redux Simple Form</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ 	<style type="text/css">
+		.m-signature-pad {
+		  font-size: 10px;
+		  width: 650px;
+		  height: 500px;
+		  border: 1px solid #e8e8e8;
+		  background-color: #fff;
+		  border-radius: 4px;
+		  margin:0 auto;
+		}
+
+		.m-signature-pad:before, .m-signature-pad:after {
+			  position: absolute;
+			  z-index: -1;
+			  content: "";
+			  width: 100%;
+			  height: 10px;
+			  left: 20px;
+			  bottom: 10px;
+			  background: transparent;
+			  -webkit-transform: skew(-3deg) rotate(-3deg);
+			  -moz-transform: skew(-3deg) rotate(-3deg);
+			  -ms-transform: skew(-3deg) rotate(-3deg);
+			  -o-transform: skew(-3deg) rotate(-3deg);
+			  transform: skew(-3deg) rotate(-3deg);
+		}
+
+		.m-signature-pad--body
+		  	canvas {
+		    left: 0;
+		    top: 0;
+		    margin:0 auto;
+		    width: 600px;
+		    height: 500px;
+		    border-radius: 4px;
+		    box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;
+		  }
+
+
+
+
+	</style>
 </head>
 <body>
   <div id="app"></div>
 </body>
+<script src="bundle.js"></script>
 </html>
