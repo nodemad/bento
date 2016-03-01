@@ -51,12 +51,47 @@
           animation: deep__fadeIn___2QhjF 1s ease-in-out;
 }
 
+.deep__edit___2hASr{
+    vertical-align: text-bottom;
+    font-family: Helvetica Neue;
+    color: #4a90e2;
+    font-weight:200;
+    cursor: pointer;
+}
+
+.deep__submit___sKw2W{
+  font-family: Helvetica neue;
+  width:40%;
+  height:30px;
+  font-size:16px;
+  border-radius: 3px;
+  font-weight: 300;
+  border: 1px solid #c8c8c8;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+
+.deep__SNAP___1A48E{
+  font-family: Helvetica Neue;
+  font-weight: 200;
+}
+
+.deep__TNAF___eDJ-Z{
+   font-family: Helvetica Neue;
+  font-weight: 200;
+}
+
+.deep__FDPIR___1k_ZM{
+    font-family: Helvetica Neue;
+  font-weight: 200;
+}
+
 
 
 .deep__header___1Jxat{
   font-family: Helvetica neue;
   font-size:36px;
-  font-weight: 100;
+  font-weight: 200;
   text-align:center;
   width:500px;
   margin: 0 auto;
@@ -214,6 +249,21 @@
   margin-top: 10px;
 }
 
+.deep__email___2JJRy{
+  font-family: Helvetica neue;
+  width:98%;
+  height:30px;
+  font-size:16px;
+  border-radius: 3px;
+  font-weight: 300;
+  border: 1px solid #c8c8c8;
+  padding-left: 10px;
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
 @media(max-width:776px){
   .deep__firstName___1VtZ_{
     width:75%;
@@ -322,7 +372,7 @@
 
 .deep__childNum___JWGpm{
   font-family: Helvetica neue;
-  font-weight:100;
+  font-weight:200;
   font-size:30px;
 }
 
@@ -333,9 +383,50 @@
   font-weight: 300;
 }
 
+.deep__often___3xAxL{
+  margin-top: 15px;
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.deep__confirmHeader___2U4Rv{
+    font-family: Helvetica neue;
+    font-size: 36px;
+    font-weight: 200;
+    text-align: center;
+    width: 460px;
+    margin: 0 auto;
+}
+
+.deep__confirmSubtitle___1ip_n{
+    font-family: Helvetica neue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5em;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+
+
+
+
 .deep__subtext___147mf{
   font-family: Helvetica neue;
-  font-weight: 100;
+  font-weight: 200;
   margin-top:0px;
   font-size: 16px;
   color: #9a9a9a;
@@ -357,7 +448,6 @@
   color:#9a9a9a;
   font-size:13px;
   font-family: Helvetica neue;
-  margin-bottom: 15px;
   width:50%;
   display:inline-block;
 }
@@ -382,7 +472,7 @@
 }
 
 .deep__close___2IZC9{
-  text-align: right;
+  text-align: center;
   color: #777;
   cursor: pointer;
 }
@@ -456,7 +546,7 @@
 
 .deep__full_name___3X3O4{
   font-size:30px;
-  font-weight: 100;
+  font-weight: 200;
   font-family: Helvetica Neue;
 }
 
@@ -505,6 +595,12 @@
   cursor:not-allowed;
 }
 
+.deep__next_step3___2ROLX:disabled{
+  border: 1px solid #d3d3d3;
+  background:#d3d3d3;
+  cursor:not-allowed;
+}
+
 
 .deep__icon___wsOh8{
   float:right;
@@ -515,7 +611,7 @@
   height:50px;
   font-family: Helvetica neue;
   font-size:16px;
-  font-weight: 100;
+  font-weight: 200;
   background:transparent;
   border-radius: 5px 0px 0px 5px;
   border : 1px solid #b1b1b1;
@@ -525,7 +621,7 @@
   height:50px;
   font-family: Helvetica neue;
   font-size:16px;
-  font-weight: 100;
+  font-weight: 200;
   background:transparent;
   border-radius: 0px 5px 5px 0px;
   border : 1px solid #b1b1b1;
@@ -573,7 +669,7 @@
   display:inline-block;
   font-size:32px;
   font-family: Helvetica Neue;
-  font-weight: 100;
+  font-weight: 200;
   width:275px;
   margin-top: 30px;
 }
@@ -582,8 +678,10 @@
 
 .deep__household_header___1ltH9{
   text-align: center;
-  font-size:20px;
-  margin-bottom: 10px;
+  font-family: Helvetica Neue;
+  font-weight: 200;
+  font-size:30px;
+  margin-bottom: 40px;
 }
 
 
