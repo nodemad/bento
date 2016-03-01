@@ -28182,6 +28182,21 @@
 	          'p',
 	          { className: _deep2.default.confirmSubtitle },
 	          'We will email or call you directly about the status of your application. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac velit bibendum, egestas erat a, vestibulum nunc. Duis ex mi, rutrum sit amet massa a, congue tristique orci. Morbi ex tellus, dictum eget metus non, dictum convallis massa. Morbi nec mauris leo. Maecenas semper, mi ut mollis pharetra.'
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { style: { textAlign: "center" } },
+	          _react2.default.createElement(
+	            'button',
+	            { className: _deep2.default.add_button },
+	            'Frequently asked Question'
+	          ),
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
+	            'button',
+	            { className: _deep2.default.next_step },
+	            'Contact us'
+	          )
 	        )
 	      );
 	    }
@@ -49493,7 +49508,7 @@
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"fadeIn":"deep__fadeIn___2QhjF","edit":"deep__edit___2hASr","submit":"deep__submit___sKw2W","SNAP":"deep__SNAP___1A48E","TNAF":"deep__TNAF___eDJ-Z","FDPIR":"deep__FDPIR___1k_ZM","header":"deep__header___1Jxat deep__fadeIn___2QhjF","fadeInDown":"deep__fadeInDown___HV-oc","caseNumber":"deep__caseNumber___3Xd_S","step2_header":"deep__step2_header___jf0TR","subtitle":"deep__subtitle___17R4O deep__fadeIn___2QhjF","firstName":"deep__firstName___1VtZ_","city":"deep__city___265WL","middleInitial":"deep__middleInitial___3JTXx","state":"deep__state___1Zusv","lastName":"deep__lastName___34N8Y","zipCode":"deep__zipCode___3tstS","streetAddress":"deep__streetAddress___1ZWqA","phoneNumber":"deep__phoneNumber___xv54j","email":"deep__email___2JJRy","nav":"deep__nav___2zAi_","status":"deep__status___3Kkf7","childNum":"deep__childNum___JWGpm","text":"deep__text___1ALiH","often":"deep__often___3xAxL","confirmHeader":"deep__confirmHeader___2U4Rv","confirmSubtitle":"deep__confirmSubtitle___1ip_n","subtext":"deep__subtext___147mf","race":"deep__race___-6lBn","column":"deep__column___2V3KN","close":"deep__close___2IZC9","add_button":"deep__add_button___tRkIA","checkbox":"deep__checkbox___2b7jF","card":"deep__card___a_KHA","card_icon":"deep__card_icon___1jkDc","full_name":"deep__full_name___3X3O4","next_step":"deep__next_step___2m49a","next_step3":"deep__next_step3___2ROLX","icon":"deep__icon___wsOh8","yes_button":"deep__yes_button___1pdZG","no_button":"deep__no_button___3EDMw","fieldset":"deep__fieldset___2_zSo deep__fadeInDown___HV-oc","step_subtitle":"deep__step_subtitle___gNTIy","step_1":"deep__step_1___247-7 deep__fadeInDown___HV-oc","step_num":"deep__step_num___2VeL7","step_header":"deep__step_header___1SnP7","household_header":"deep__household_header___1ltH9 deep__fadeInDown___HV-oc","enter":"deep__enter___2JNUO","enterActive":"deep__enterActive___1d23S","leave":"deep__leave___1-Sdl","leaveActive":"deep__leaveActive___nilN-","appear":"deep__appear___2iQYc","appearActive":"deep__appearActive___3Pb57"};
+	module.exports = {"fadeIn":"deep__fadeIn___2QhjF","edit":"deep__edit___2hASr","submit":"deep__submit___sKw2W","SNAP":"deep__SNAP___1A48E","TNAF":"deep__TNAF___eDJ-Z","FDPIR":"deep__FDPIR___1k_ZM","header":"deep__header___1Jxat deep__fadeIn___2QhjF","fadeInDown":"deep__fadeInDown___HV-oc","caseNumber":"deep__caseNumber___3Xd_S","step2_header":"deep__step2_header___jf0TR","subtitle":"deep__subtitle___17R4O deep__fadeIn___2QhjF","firstName":"deep__firstName___1VtZ_","city":"deep__city___265WL","middleInitial":"deep__middleInitial___3JTXx","state":"deep__state___1Zusv","lastName":"deep__lastName___34N8Y","zipCode":"deep__zipCode___3tstS","streetAddress":"deep__streetAddress___1ZWqA","phoneNumber":"deep__phoneNumber___xv54j","email":"deep__email___2JJRy","nav":"deep__nav___2zAi_","status":"deep__status___3Kkf7","childNum":"deep__childNum___JWGpm","text":"deep__text___1ALiH","often":"deep__often___3xAxL","confirmHeader":"deep__confirmHeader___2U4Rv","confirmSubtitle":"deep__confirmSubtitle___1ip_n","subtext":"deep__subtext___147mf","race":"deep__race___-6lBn","column":"deep__column___2V3KN","close":"deep__close___2IZC9","add_button":"deep__add_button___tRkIA","checkbox":"deep__checkbox___2b7jF","card":"deep__card___a_KHA","card_icon":"deep__card_icon___1jkDc","full_name":"deep__full_name___3X3O4","next_step":"deep__next_step___2m49a","next_step3":"deep__next_step3___2ROLX","icon":"deep__icon___wsOh8","yes_button":"deep__yes_button___1pdZG","no_button":"deep__no_button___3EDMw","fieldset":"deep__fieldset___2_zSo deep__fadeInDown___HV-oc","step_subtitle":"deep__step_subtitle___gNTIy","step_1":"deep__step_1___247-7 deep__fadeInDown___HV-oc","signaturetext":"deep__signaturetext___2bZIE","step_num":"deep__step_num___2VeL7","step_header":"deep__step_header___1SnP7","household_header":"deep__household_header___1ltH9 deep__fadeInDown___HV-oc","enter":"deep__enter___2JNUO","enterActive":"deep__enterActive___1d23S","leave":"deep__leave___1-Sdl","leaveActive":"deep__leaveActive___nilN-","appear":"deep__appear___2iQYc","appearActive":"deep__appearActive___3Pb57"};
 
 /***/ },
 /* 613 */
@@ -52436,6 +52451,40 @@
 	      dispatch(_reactReduxForm.actions.change('info.isStep2a', true));
 	    }
 	  }, {
+	    key: 'todayDate',
+	    value: function todayDate() {
+	      var today = new Date();
+	      var month;
+	      if (today.getMonth() == 0) {
+	        month = "January";
+	      } else if (today.getMonth() == 1) {
+	        month = "February";
+	      } else if (today.getMonth() == 2) {
+	        month = "March";
+	      } else if (today.getMonth() == 3) {
+	        month = "April";
+	      } else if (today.getMonth() == 4) {
+	        month = "May";
+	      } else if (today.getMonth() == 5) {
+	        month = "June";
+	      } else if (today.getMonth() == 6) {
+	        month = "July";
+	      } else if (today.getMonth() == 7) {
+	        month = "August";
+	      } else if (today.getMonth() == 8) {
+	        month = "September";
+	      } else if (today.getMonth() == 9) {
+	        month = "October";
+	      } else if (today.getMonth() == 10) {
+	        month = "November";
+	      }
+	      if (today.getMonth() == 11) {
+	        month = "December";
+	      }
+
+	      return month + " " + today.getDay() + ", " + today.getFullYear();
+	    }
+	  }, {
 	    key: 'step2b',
 	    value: function step2b() {
 	      var _props4 = this.props;
@@ -53585,7 +53634,7 @@
 	                          _react2.default.createElement(
 	                            'p',
 	                            { className: _deep2.default.subtext },
-	                            'Pensions, retirement or other income. Please report in whole dollars only. Enter ‘0’ if y'
+	                            'Pensions, retirement or other income. Please report in whole dollars only. Enter ‘0’ if you don’t make any income.'
 	                          ),
 	                          _react2.default.createElement(
 	                            _reactReduxForm.Field,
@@ -53769,17 +53818,17 @@
 	                      _react2.default.createElement(
 	                        _reactReduxForm.Field,
 	                        { model: 'info.parent.state' },
-	                        _react2.default.createElement('input', { type: 'text', className: _deep2.default.state, placeholder: 'State' })
+	                        _react2.default.createElement('input', { type: 'text', className: _deep2.default.state, maxLength: '2', placeholder: 'State' })
 	                      ),
 	                      _react2.default.createElement(
 	                        _reactReduxForm.Field,
 	                        { model: 'info.parent.zipCode' },
-	                        _react2.default.createElement('input', { type: 'text', className: _deep2.default.zipCode, placeholder: 'Zip Code' })
+	                        _react2.default.createElement('input', { type: 'text', className: _deep2.default.zipCode, maxLength: '5', placeholder: 'Zip Code' })
 	                      ),
 	                      _react2.default.createElement(
 	                        _reactReduxForm.Field,
 	                        { model: 'info.parent.phoneNumber' },
-	                        _react2.default.createElement('input', { type: 'text', className: _deep2.default.phoneNumber, placeholder: 'Phone Number' })
+	                        _react2.default.createElement('input', { type: 'text', className: _deep2.default.phoneNumber, maxLength: '10', placeholder: 'Phone Number' })
 	                      ),
 	                      _react2.default.createElement(
 	                        _reactReduxForm.Field,
@@ -53804,18 +53853,32 @@
 	                _react2.default.createElement(
 	                  'div',
 	                  null,
+	                  _react2.default.createElement(
+	                    'ul',
+	                    null,
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      'Your Signature'
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      this.todayDate()
+	                    )
+	                  ),
 	                  _react2.default.createElement(_reactSignaturePad2.default, null)
 	                ),
 	                _react2.default.createElement(
 	                  'div',
-	                  null,
+	                  { style: { textAlign: "center" } },
 	                  _react2.default.createElement(
 	                    'button',
-	                    null,
+	                    { className: _deep2.default.submit },
 	                    _react2.default.createElement(
 	                      _reactRouter.Link,
 	                      { to: '/confirmation' },
-	                      'Form'
+	                      'Submit your application'
 	                    )
 	                  )
 	                )

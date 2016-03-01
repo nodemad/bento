@@ -61,7 +61,8 @@
 
 .deep__submit___sKw2W{
   font-family: Helvetica neue;
-  width:40%;
+  margin-top: 20px;
+  width:50%;
   height:30px;
   font-size:16px;
   border-radius: 3px;
@@ -69,7 +70,20 @@
   border: 1px solid #c8c8c8;
   padding-left: 10px;
   text-transform: capitalize;
+  background: #12d8ab;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 50px;
+  border: 1px solid #12d8ab;
 }
+
+.deep__submit___sKw2W a{
+  text-decoration: none;
+   color: white;
+   font-size: 16px;
+}
+
 
 .deep__SNAP___1A48E{
   font-family: Helvetica Neue;
@@ -417,6 +431,8 @@
     margin: 0 auto;
     text-align: center;
     font-weight: 300;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 
@@ -655,6 +671,15 @@
    margin-bottom:50px;
 }
 
+
+.deep__signaturetext___2bZIE{
+  display: inline-block;
+  width: 50%;
+  margin-left: 15%;
+  font-family: Helvetica Neue;
+}
+
+
 .deep__step_num___2VeL7{
   font-family: Helvetica Neue;
   font-weight: 300;
@@ -671,7 +696,7 @@
   font-family: Helvetica Neue;
   font-weight: 200;
   width:275px;
-  margin-top: 30px;
+  vertical-align: -webkit-baseline-middle;
 }
 
 
